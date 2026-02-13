@@ -98,14 +98,14 @@ video {
 
 <script>
 // 💖 NOMBRE DE TU NOVIA
-const nombre = "Mi amor";
+const nombre = "Samara";
 
 // 💌 MENSAJES EN BLOQUES DE 4 LÍNEAS
 const mensajes = [
-`Hola ${nombre} ❤️
+`Holaaaaa ${nombre} ❤️
 Te hice este regalo con todo mi corazón
-Con lo que que he aprendido estos años
-Porque sos lo más importante para mí`,
+Con lo mejor que se hacer,
+sos lo más importante para mí`,
 
 `Quiero que sepas que te amo demasiado
 Que te elegiría mil veces si fuera necesario
@@ -146,13 +146,13 @@ function iniciar() {
   mostrarMensajes();
 }
 
-// Mostrar bloques cada 15 segundos
+// Mostrar bloques cada 5 segundos
 function mostrarMensajes() {
   document.getElementById("texto").innerText = mensajes[i];
   i++;
 
   if (i < mensajes.length) {
-    setTimeout(mostrarMensajes, 10000);
+    setTimeout(mostrarMensajes, 9000);
   }
 }
 
@@ -170,4 +170,3 @@ setInterval(() => {
 
 </body>
 </html>
-
